@@ -12,7 +12,7 @@
     {
       "name": "KAT",
       "symbol": "KAT",
-      "decimals": 18, // TODO: validate decimals on all
+      "decimals": 18,
       "chainId": 747474,
       "address": "0x7f1f4b4b29f5058fa32cc7a97141b8d7e5abdc2d",
       "logoURI": "https://assets.katana.network/katana-token.svg"
@@ -28,7 +28,7 @@
     {
       "name": "Vault Bridge USDC",
       "symbol": "vbUSDC",
-      "decimals": 18,
+      "decimals": 6,
       "chainId": 747474,
       "address": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
       "logoURI": "https://assets.katana.network/icons/usdc.svg"
@@ -36,7 +36,7 @@
     {
       "name": "Vault Bridge USDT",
       "symbol": "vbUSDT",
-      "decimals": 18,
+      "decimals": 6,
       "chainId": 747474,
       "address": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
       "logoURI": "https://assets.katana.network/icons/usdt.svg"
@@ -44,7 +44,7 @@
     {
       "name": "Vault Bridge WBTC",
       "symbol": "vbWBTC",
-      "decimals": 18,
+      "decimals": 8,
       "chainId": 747474,
       "address": "0x0913DA6Da4b42f538B445599b46Bb4622342Cf52",
       "logoURI": "https://assets.katana.network/icons/wbtc.svg"
@@ -58,9 +58,9 @@
       "logoURI": "https://assets.katana.network/icons/usds.webp"
     },
     {
-      "name": "Agora USDC",
-      "symbol": "vbAUSD",
-      "decimals": 18,
+      "name": "Agora Dollar",
+      "symbol": "AUSD",
+      "decimals": 6,
       "chainId": 747474,
       "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
       "logoURI": "https://assets.katana.network/icons/ausd.png"
