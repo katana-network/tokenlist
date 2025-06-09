@@ -15,6 +15,7 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0x7f1f4b4b29f5058fa32cc7a97141b8d7e5abdc2d",
+      "originTokenAddress": "0x0000000000000000000000000000000000000000",
       "logoURI": "https://assets.katana.network/katana-token.svg"
     },
     {
@@ -23,6 +24,8 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62",
+      "originTokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/eth.svg"
     },
     {
@@ -31,6 +34,8 @@
       "decimals": 6,
       "chainId": 747474,
       "address": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
+      "originTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/usdc.svg"
     },
     {
@@ -39,6 +44,8 @@
       "decimals": 6,
       "chainId": 747474,
       "address": "0x2DCa96907fde857dd3D816880A0df407eeB2D2F2",
+      "originTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/usdt.svg"
     },
     {
@@ -47,6 +54,8 @@
       "decimals": 8,
       "chainId": 747474,
       "address": "0x0913DA6Da4b42f538B445599b46Bb4622342Cf52",
+      "originTokenAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/wbtc.svg"
     },
     {
@@ -55,6 +64,8 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0x62D6A123E8D19d06d68cf0d2294F9A3A0362c6b3",
+      "originTokenAddress": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/usds.webp"
     },
     {
@@ -63,6 +74,8 @@
       "decimals": 6,
       "chainId": 747474,
       "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "originTokenAddress": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/ausd.png"
     },
     {
@@ -71,6 +84,8 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55",
+      "originTokenAddress": "0x9b8df6e244526ab5f6e6400d331db28c8fdddb55",
+      "originChainId": 8453,
       "logoURI": "https://assets.katana.network/icons/usol.png"
     },
     {
@@ -79,6 +94,8 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0xb0505e5a99abd03d94a1169e638B78EDfEd26ea4",
+      "originTokenAddress": "0xb0505e5a99abd03d94a1169e638b78edfed26ea4",
+      "originChainId": 8453,
       "logoURI": "https://assets.katana.network/icons/usui.png"
     },
     {
@@ -87,6 +104,8 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0x2615a94df961278DcbC41Fb0a54fEc5f10a693aE",
+      "originTokenAddress": "0x2615a94df961278dcbc41fb0a54fec5f10a693ae",
+      "originChainId": 8453,
       "logoURI": "https://assets.katana.network/icons/uxrp.png"
     },
     {
@@ -95,6 +114,8 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0x1e5eFCA3D0dB2c6d5C67a4491845c43253eB9e4e",
+      "originTokenAddress": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/morpho.png"
     },
     {
@@ -103,6 +124,8 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0x17BFF452dae47e07CeA877Ff0E1aba17eB62b0aB",
+      "originTokenAddress": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/sushi.svg"
     },
     {
@@ -111,6 +134,8 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0x476eaCd417cD65421bD34fca054377658BB5E02b",
+      "originTokenAddress": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+      "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/yearn.jpg"
     }
   ]
