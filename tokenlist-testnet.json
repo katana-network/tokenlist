@@ -6,11 +6,11 @@
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 0
+    "patch": 1
   },
   "tokens": [
     {
-      "name": "Testnet Ether",
+      "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
       "chainId": 737373,

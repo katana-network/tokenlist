@@ -55,7 +55,7 @@ function validateVersionIncrement(filePath) {
       return false;
     }
 
-    console.log(`✓ Version increment validated for ${filePath}`);
+    console.log(`✓ Version increment validated for ${filePath} from ${mainVersion.major}.${mainVersion.minor}.${mainVersion.patch} to ${prVersion.major}.${prVersion.minor}.${prVersion.patch}`);
     return true;
   } catch (error) {
     console.error(`\nError validating version in ${filePath}:`);
