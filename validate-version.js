@@ -39,11 +39,12 @@ function validateVersionIncrement(filePath) {
     }
 
     // Read the current version from main branch
-    const mainData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const mainVersionContent = execSync(`git show main:${filePath}`).toString();
+    const mainData = JSON.parse(mainVersionContent);
     const mainVersion = parseVersion(mainData.version);
 
-    // Read the PR version
-    const prData = JSON.parse(fs.readFileSync(process.env.GITHUB_WORKSPACE + '/' + filePath, 'utf8'));
+    // Read the PR version from the working directory
+    const prData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     const prVersion = parseVersion(prData.version);
 
     if (!compareVersions(mainVersion, prVersion)) {
