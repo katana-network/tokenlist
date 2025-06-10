@@ -39,11 +39,12 @@ function validateVersionIncrement(filePath) {
     }
 
     // Read the current version from main branch
-    const mainData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const mainVersionContent = execSync(`git show main:${filePath}`).toString();
+    const mainData = JSON.parse(mainVersionContent);
     const mainVersion = parseVersion(mainData.version);
 
-    // Read the PR version
-    const prData = JSON.parse(fs.readFileSync(process.env.GITHUB_WORKSPACE + '/' + filePath, 'utf8'));
+    // Read the PR version from the working directory
+    const prData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     const prVersion = parseVersion(prData.version);
 
     if (!compareVersions(mainVersion, prVersion)) {
@@ -54,7 +55,7 @@ function validateVersionIncrement(filePath) {
       return false;
     }
 
-    console.log(`✓ Version increment validated for ${filePath}`);
+    console.log(`✓ Version increment validated for ${filePath} from ${mainVersion.major}.${mainVersion.minor}.${mainVersion.patch} to ${prVersion.major}.${prVersion.minor}.${prVersion.patch}`);
     return true;
   } catch (error) {
     console.error(`\nError validating version in ${filePath}:`);
