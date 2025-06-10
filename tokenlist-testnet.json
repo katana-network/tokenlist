@@ -10,7 +10,7 @@
   },
   "tokens": [
     {
-      "name": "Ether",
+      "name": "Testnet Ether",
       "symbol": "ETH",
       "decimals": 18,
       "chainId": 737373,
