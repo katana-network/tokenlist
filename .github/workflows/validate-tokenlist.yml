@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout PR
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Fetch all history for version comparison
       
@@ -30,8 +31,11 @@ jobs:
       - name: Validate tokenlists
         run: npm run validate
 
-      - name: Checkout main branch
-        run: git checkout main
+      - name: Fetch main branch
+        run: |
+          git fetch origin main:main
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
         
       - name: Validate version increments
         run: node validate-version.js 
