@@ -1,6 +1,6 @@
 # Tokenlists
 
-This repo contains lists of tokens mapped to the Polygon chains that may be used in certain interfaces.
+This repo contains lists of tokens mapped to the katana chains that may be used in certain interfaces.
 
 ## Versioning
 
