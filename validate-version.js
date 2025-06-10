@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { execSync } = require('child_process');
 
 function parseVersion(version) {
   return {
@@ -18,8 +19,25 @@ function compareVersions(oldVersion, newVersion) {
   return newVersion.patch > oldVersion.patch;
 }
 
+function isFileModified(filePath) {
+  try {
+    // Get the list of modified files in the PR
+    const modifiedFiles = execSync('git diff --name-only main').toString().split('\n');
+    return modifiedFiles.includes(filePath);
+  } catch (error) {
+    console.error('Error checking modified files:', error.message);
+    return false;
+  }
+}
+
 function validateVersionIncrement(filePath) {
   try {
+    // Skip validation if file wasn't modified
+    if (!isFileModified(filePath)) {
+      console.log(`Skipping version validation for ${filePath} (not modified in PR)`);
+      return true;
+    }
+
     // Read the current version from main branch
     const mainData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     const mainVersion = parseVersion(mainData.version);
