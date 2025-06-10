@@ -1,0 +1,37 @@
+name: Validate Tokenlist
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'tokenlist.json'
+      - 'tokenlist-testnet.json'
+      - 'validate.js'
+      - 'validate-version.js'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for version comparison
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Validate tokenlists
+        run: npm run validate
+
+      - name: Checkout main branch
+        run: git checkout main
+        
+      - name: Validate version increments
+        run: node validate-version.js 
