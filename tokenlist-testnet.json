@@ -9,6 +9,15 @@
     "patch": 0
   },
   "tokens": [
-    
+    {
+      "name": "Ether",
+      "symbol": "",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "originTokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "originChainId": 1,
+      "logoURI": "https://assets.katana.network/icons/eth.svg"
+    }
   ]
 }
