@@ -10,6 +10,16 @@
   },
   "tokens": [
     {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "originTokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "originChainId": 1,
+      "logoURI": "https://assets.katana.network/icons/eth.svg"
+    },
+    {
       "name": "KAT",
       "symbol": "KAT",
       "decimals": 18,
