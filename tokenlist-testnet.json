@@ -1,0 +1,14 @@
+{
+  "name": "Katana Testnet Token List",
+  "logoURI": "https://assets.katana.network/katana-social-icon.svg",
+  "timestamp": "2025-06-05T19:00:00.000Z",
+  "keywords": ["katana", "DeFi", "L2", "testnet"],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    
+  ]
+}

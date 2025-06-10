@@ -1,0 +1,17 @@
+{
+  "name": "tokenlist",
+  "version": "1.0.0",
+  "description": "This repo contains lists of tokens mapped to the Polygon chains that may be used in certain interfaces.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "node validate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^3.0.1"
+  }
+}
