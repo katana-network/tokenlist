@@ -1,8 +1,8 @@
 {
-  "name": "Katana Testnet Token List",
+  "name": "katana testnet token list (bokuto)",
   "logoURI": "https://assets.katana.network/katana-social-icon.svg",
   "timestamp": "2025-06-05T19:00:00.000Z",
-  "keywords": ["katana", "DeFi", "L2", "testnet"],
+  "keywords": ["katana", "DeFi", "L2", "testnet", "bokuto"],
   "version": {
     "major": 1,
     "minor": 0,
@@ -11,9 +11,9 @@
   "tokens": [
     {
       "name": "Ether",
-      "symbol": "",
+      "symbol": "ETH",
       "decimals": 18,
-      "chainId": 747474,
+      "chainId": 737373,
       "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "originTokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "originChainId": 1,
