@@ -2,11 +2,15 @@
   "name": "Katana Token List",
   "logoURI": "https://assets.katana.network/katana-social-icon.svg",
   "timestamp": "2025-06-05T19:00:00.000Z",
-  "keywords": ["katana", "DeFi", "L2"],
+  "keywords": [
+    "katana",
+    "DeFi",
+    "L2"
+  ],
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 0
+    "patch": 1
   },
   "tokens": [
     {
@@ -147,6 +151,15 @@
       "originTokenAddress": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/yearn.jpg"
+    },
+    {
+      "name": "BitVault USD",
+      "symbol": "bvUSD",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0x876aac7648d79f87245e73316eb2d100e75f3df1",
+      "originTokenAddress": "0x0000000000000000000000000000000000000000",
+      "logoURI": "assets/bvusd.svg"
     }
   ]
 }
