@@ -40,7 +40,7 @@
       "decimals": 18,
       "chainId": 747474,
       "address": "0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62",
-      "originTokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "originTokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/eth.svg",
       "tags": ["priority"]
