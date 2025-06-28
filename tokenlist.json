@@ -10,7 +10,7 @@
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 4
+    "patch": 5
   },
   "tokens": [
     {
@@ -22,7 +22,9 @@
       "originTokenAddress": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/eth.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "KAT",
@@ -32,7 +34,9 @@
       "address": "0x7f1f4b4b29f5058fa32cc7a97141b8d7e5abdc2d",
       "originTokenAddress": "0x0000000000000000000000000000000000000000",
       "logoURI": "https://assets.katana.network/icons/kat.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Vault Bridge ETH",
@@ -43,7 +47,9 @@
       "originTokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/eth.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Vault Bridge USDC",
@@ -54,7 +60,9 @@
       "originTokenAddress": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/usdc.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Vault Bridge USDT",
@@ -65,7 +73,9 @@
       "originTokenAddress": "0xdac17f958d2ee523a2206206994597c13d831ec7",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/usdt.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Vault Bridge WBTC",
@@ -76,7 +86,9 @@
       "originTokenAddress": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/btc.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Vault Bridge USDS",
@@ -87,7 +99,9 @@
       "originTokenAddress": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/usds.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Agora Dollar",
@@ -98,7 +112,22 @@
       "originTokenAddress": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/ausd.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
+    },
+    {
+      "name": "Lombard Staked BTC",
+      "symbol": "LBTC",
+      "decimals": 8,
+      "chainId": 747474,
+      "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+      "originTokenAddress": "0x8236a87084f8b84306f72007f36f2618a5634494",
+      "originChainId": 1,
+      "logoURI": "https://assets.katana.network/icons/lbtc.svg",
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Solana (Universal)",
@@ -109,7 +138,9 @@
       "originTokenAddress": "0x9b8df6e244526ab5f6e6400d331db28c8fdddb55",
       "originChainId": 8453,
       "logoURI": "https://assets.katana.network/icons/usol.png",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "SUI (Universal)",
@@ -120,7 +151,9 @@
       "originTokenAddress": "0xb0505e5a99abd03d94a1169e638b78edfed26ea4",
       "originChainId": 8453,
       "logoURI": "https://assets.katana.network/icons/usui.png",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "XRP (Universal)",
@@ -131,7 +164,9 @@
       "originTokenAddress": "0x2615a94df961278dcbc41fb0a54fec5f10a693ae",
       "originChainId": 8453,
       "logoURI": "https://assets.katana.network/icons/uxrp.png",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Bridge-wrapped MORPHO",
@@ -142,7 +177,9 @@
       "originTokenAddress": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/morpho.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Bridge-wrapped SUSHI",
@@ -153,7 +190,9 @@
       "originTokenAddress": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/sushi.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "Bridge-wrapped Yearn Finance",
@@ -164,7 +203,35 @@
       "originTokenAddress": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/yearn.svg",
-      "tags": ["priority"]
+      "tags": [
+        "priority"
+      ]
+    },
+    {
+      "name": "Bridge-wrapped weETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0x9893989433e7a383Cb313953e4c2365107dc19a7",
+      "originTokenAddress": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+      "originChainId": 1,
+      "logoURI": "https://assets.katana.network/icons/assets/weeth.svg",
+      "tags": [
+        "priority"
+      ]
+    },
+    {
+      "name": "Bridge-wrapped wstETH",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0x7Fb4D0f51544F24F385a421Db6e7D4fC71Ad8e5C",
+      "originTokenAddress": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "originChainId": 1,
+      "logoURI": "https://assets.katana.network/icons/assets/wsteth.svg",
+      "tags": [
+        "priority"
+      ]
     },
     {
       "name": "BitVault USD",
