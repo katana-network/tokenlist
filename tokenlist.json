@@ -215,7 +215,7 @@
       "address": "0x9893989433e7a383Cb313953e4c2365107dc19a7",
       "originTokenAddress": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
       "originChainId": 1,
-      "logoURI": "https://assets.katana.network/icons/assets/weeth.svg",
+      "logoURI": "https://assets.katana.network/icons/weeth.svg",
       "tags": [
         "priority"
       ]
@@ -228,7 +228,7 @@
       "address": "0x7Fb4D0f51544F24F385a421Db6e7D4fC71Ad8e5C",
       "originTokenAddress": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
       "originChainId": 1,
-      "logoURI": "https://assets.katana.network/icons/assets/wsteth.svg",
+      "logoURI": "https://assets.katana.network/icons/wsteth.svg",
       "tags": [
         "priority"
       ]
