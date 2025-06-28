@@ -221,6 +221,19 @@
       ]
     },
     {
+      "name": "Bridge-wrapped wstETH",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0x7Fb4D0f51544F24F385a421Db6e7D4fC71Ad8e5C",
+      "originTokenAddress": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "originChainId": 1,
+      "logoURI": "https://assets.katana.network/icons/assets/wsteth.svg",
+      "tags": [
+        "priority"
+      ]
+    },
+    {
       "name": "BitVault USD",
       "symbol": "bvUSD",
       "decimals": 18,
