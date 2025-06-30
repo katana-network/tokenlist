@@ -10,7 +10,7 @@
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 6
+    "patch": 7
   },
   "tokens": [
     {
@@ -99,9 +99,7 @@
       "originTokenAddress": "0xdC035D45d973E3EC169d2276DDab16f1e407384F",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/usds.svg",
-      "tags": [
-        "priority"
-      ]
+      "tags": []
     },
     {
       "name": "Agora Dollar",
@@ -151,9 +149,7 @@
       "originTokenAddress": "0xb0505e5a99abd03d94a1169e638b78edfed26ea4",
       "originChainId": 8453,
       "logoURI": "https://assets.katana.network/icons/usui.png",
-      "tags": [
-        "priority"
-      ]
+      "tags": []
     },
     {
       "name": "XRP (Universal)",
@@ -164,9 +160,7 @@
       "originTokenAddress": "0x2615a94df961278dcbc41fb0a54fec5f10a693ae",
       "originChainId": 8453,
       "logoURI": "https://assets.katana.network/icons/uxrp.png",
-      "tags": [
-        "priority"
-      ]
+      "tags": []
     },
     {
       "name": "Bridge-wrapped MORPHO",
