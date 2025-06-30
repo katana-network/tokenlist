@@ -10,7 +10,7 @@
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 7
+    "patch": 8
   },
   "tokens": [
     {
@@ -123,6 +123,18 @@
       "originTokenAddress": "0x8236a87084f8b84306f72007f36f2618a5634494",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/lbtc.svg",
+      "tags": [
+        "priority"
+      ]
+    },
+    {
+      "name": "Bitcoin on Katana",
+      "symbol": "BTCK",
+      "decimals": 8,
+      "chainId": 747474,
+      "address": "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072",
+      "originTokenAddress": "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072",
+      "logoURI": "https://assets.katana.network/icons/btck.svg",
       "tags": [
         "priority"
       ]
