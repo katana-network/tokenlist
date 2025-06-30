@@ -10,7 +10,7 @@
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 6
+    "patch": 7
   },
   "tokens": [
     {
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "name": "KAT",
+      "name": "Katana Network Token",
       "symbol": "KAT",
       "decimals": 18,
       "chainId": 747474,
@@ -130,6 +130,18 @@
       ]
     },
     {
+      "name": "Jito Staked SOL",
+      "symbol": "JitoSOL",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0x6C16E26013f2431e8B2e1Ba7067ECCcad0Db6C52",
+      "originTokenAddress": "0x6C16E26013f2431e8B2e1Ba7067ECCcad0Db6C52",
+      "logoURI": "https://assets.katana.network/icons/jitosol.svg",
+      "tags": [
+        "priority"
+      ]
+    },
+    {
       "name": "Solana (Universal)",
       "symbol": "uSOL",
       "decimals": 18,
@@ -177,6 +189,19 @@
       "originTokenAddress": "0x58d97b57bb95320f9a05dc918aef65434969c2b2",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/morpho.svg",
+      "tags": [
+        "priority"
+      ]
+    },
+    {
+      "name": "Bridge-wrapped POL",
+      "symbol": "POL",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0xb24e3035d1FCBC0E43CF3143C3Fd92E53df2009b",
+      "originTokenAddress": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+      "originChainId": 1,
+      "logoURI": "https://assets.katana.network/icons/pol.svg",
       "tags": [
         "priority"
       ]
