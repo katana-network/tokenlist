@@ -10,7 +10,7 @@
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 8
+    "patch": 9
   },
   "tokens": [
     {
@@ -272,6 +272,16 @@
       "address": "0x876aac7648d79f87245e73316eb2d100e75f3df1",
       "originTokenAddress": "0x0000000000000000000000000000000000000000",
       "logoURI": "https://assets.katana.network/icons/bvusd.svg"
+    },
+    {
+      "name": "Bridge-wrapped Succinct",
+      "symbol": "PROVE",
+      "decimals": 18,
+      "originChainId": 1,
+      "originTokenAddress": "0x6bef15d938d4e72056ac92ea4bdd0d76b1c4ad29",
+      "chainId": 747474,
+      "address": "0xb244Add9FE6cB17558221e4Dfea960e680CCD29b",
+      "logoURI": "https://assets.katana.network/icons/prove.svg"
     }
   ]
 }
