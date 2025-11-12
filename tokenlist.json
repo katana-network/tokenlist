@@ -10,7 +10,7 @@
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 9
+    "patch": 10
   },
   "tokens": [
     {
@@ -129,7 +129,7 @@
     },
     {
       "name": "Bitcoin on Katana",
-      "symbol": "BTCK",
+      "symbol": "BTC.b",
       "decimals": 8,
       "chainId": 747474,
       "address": "0xB0F70C0bD6FD87dbEb7C10dC692a2a6106817072",
@@ -282,6 +282,26 @@
       "chainId": 747474,
       "address": "0xb244Add9FE6cB17558221e4Dfea960e680CCD29b",
       "logoURI": "https://assets.katana.network/icons/prove.svg"
+    },
+    {
+      "name": "Bridge-wrapped ChainLink Token",
+      "symbol": "LINK",
+      "decimals": 18,
+      "originChainId": 1,
+      "originTokenAddress": "0x514910771af9ca656af840dff83e8264ecf986ca",
+      "chainId": 747474,
+      "address": "0x4570545894be2140708048781276bbd0fae15514",
+      "logoURI": "https://assets.katana.network/icons/link.svg"
+    },
+    {
+      "name": "Bridge-wrapped Pepe",
+      "symbol": "PEPE",
+      "decimals": 18,
+      "originChainId": 1,
+      "originTokenAddress": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+      "chainId": 747474,
+      "address": "0x7fa65cb97efb27ad709b29856aafcbd51a294237",
+      "logoURI": "https://assets.katana.network/icons/pepe.svg"
     }
   ]
 }
