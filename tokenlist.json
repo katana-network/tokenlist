@@ -40,7 +40,7 @@
     },
     {
       "name": "Vault Bridge ETH",
-      "symbol": "wETH",
+      "symbol": "WETH",
       "decimals": 18,
       "chainId": 747474,
       "address": "0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62",
