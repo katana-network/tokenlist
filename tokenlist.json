@@ -10,7 +10,7 @@
   "version": {
     "major": 1,
     "minor": 2,
-    "patch": 0
+    "patch": 1
   },
   "tokens": [
     {
@@ -420,6 +420,18 @@
       "originTokenAddress": "0xd0660cd418a64a1d44e9214ad8e459324d8157f1",
       "originChainId": 1,
       "logoURI": "https://assets.katana.network/icons/woofy.svg",
+      "tags": [
+        "priority"
+      ]
+    },
+    {
+      "name": "Auto-Staked KAT",
+      "symbol": "avKAT",
+      "decimals": 18,
+      "chainId": 747474,
+      "address": "0x7231dbaCdFc968E07656D12389AB20De82FbfCeB",
+      "originTokenAddress": "0x0000000000000000000000000000000000000000",
+      "logoURI": "https://assets.katana.network/icons/avkat.png",
       "tags": [
         "priority"
       ]
